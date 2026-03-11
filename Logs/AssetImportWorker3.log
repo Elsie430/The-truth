@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-03-11T07:56:52.4405538Z"
 Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) Core' Language: 'zh' Physical Memory: 32530 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-03-11T06:50:14.0875352Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-03-11T06:50:14Z
+Date: 2026-03-11T07:56:52Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
@@ -15,11 +15,11 @@ C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/User/Desktop/The-truth/The-truth
+C:/Users/User/Desktop/The-truth
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-64071
+51528
 -licensingIpc
 LicenseClient-User
 -job-worker-count
@@ -30,8 +30,8 @@ LicenseClient-User
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/User/Desktop/The-truth/The-truth
-C:/Users/User/Desktop/The-truth/The-truth
+Successfully changed project path to: C:/Users/User/Desktop/The-truth
+C:/Users/User/Desktop/The-truth
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -67,16 +67,16 @@ C:/Users/User/Desktop/The-truth/The-truth
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [24600]  Target information:
+Player connection [3444]  Target information:
 
-Player connection [24600]  * "[IP] 169.254.93.86 [Port] 0 [Flags] 2 [Guid] 3366393282 [EditorId] 3366393282 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CL89P5G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [3444]  * "[IP] 169.254.93.86 [Port] 0 [Flags] 2 [Guid] 1255759148 [EditorId] 1255759148 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CL89P5G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24600]  * "[IP] 26.108.68.145 [Port] 0 [Flags] 2 [Guid] 3366393282 [EditorId] 3366393282 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CL89P5G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [3444]  * "[IP] 26.108.68.145 [Port] 0 [Flags] 2 [Guid] 1255759148 [EditorId] 1255759148 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CL89P5G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24600]  * "[IP] 118.171.64.122 [Port] 0 [Flags] 2 [Guid] 3366393282 [EditorId] 3366393282 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CL89P5G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [3444]  * "[IP] 118.171.64.122 [Port] 0 [Flags] 2 [Guid] 1255759148 [EditorId] 1255759148 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CL89P5G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24600] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [24600] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3444] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [3444] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -88,11 +88,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.74 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.42 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/The-truth/The-truth/Assets
+[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/The-truth/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -104,7 +104,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -112,63 +112,63 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              a1088fe7b4e3447c9fc37a95225de900
-  Correlation Id:          7da4dd2e0754d7f582fbceffa514407a
-  External correlation Id: 8863042156273081470
+  Session Id:              48c2cf809413440287f0ec8f130e4e63
+  Correlation Id:          02b65cc899ca60f9404234bd00f6dbe7
+  External correlation Id: 7507225625266517411
   Machine Id:              tknEyilhDdtW99Wyn+AJ7zVW6YM=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User" (connect: 0.00s, validation: 0.00s, handshake: 0.84s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-notifications" at "2026-03-11T06:50:14.9287643Z"
-[Licensing::Module] Licensing Background thread has ended after 0.84s
-[Licensing::Module] Licensing is initialized (took 0.12s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User" (connect: 0.00s, validation: 0.00s, handshake: 0.72s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-notifications" at "2026-03-11T07:56:53.1641596Z"
+[Licensing::Module] Licensing Background thread has ended after 0.72s
+[Licensing::Module] Licensing is initialized (took 0.09s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-CGN5-FGZ2-2A9H-3JZC-XXXX
   Product: Unity Personal
   Type: ULF
-  Expiration: 2026-03-23T07:49:28Z
+  Expiration: 2026-03-23T08:35:11Z
 [Licensing::Module] License group:
   Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
   Product: Unity Personal Version
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.125748 seconds.
-- Loaded All Assemblies, in  0.550 seconds
+Registered in 0.092537 seconds.
+- Loaded All Assemblies, in  0.451 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1202 ms
+Android Extension - Scanning For ADB Devices 222 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.588 seconds
-Domain Reload Profiling: 2136ms
-	BeginReloadAssembly (163ms)
+- Finished resetting the current domain, in  0.574 seconds
+Domain Reload Profiling: 1023ms
+	BeginReloadAssembly (120ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (40ms)
+	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (171ms)
-	LoadAllAssembliesAndSetupDomain (161ms)
-		LoadAssemblies (160ms)
+	initialDomainReloadingComplete (135ms)
+	LoadAllAssembliesAndSetupDomain (146ms)
+		LoadAssemblies (118ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (157ms)
-			TypeCache.Refresh (155ms)
-				TypeCache.ScanAssembly (144ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (130ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (1589ms)
+	FinalizeReload (574ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1554ms)
+		SetupLoadedEditorAssemblies (538ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1286ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (136ms)
-			ProcessInitializeOnLoadMethodAttributes (58ms)
+			InitializePlatformSupportModulesInManaged (303ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (114ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -182,14 +182,14 @@ Begin MonoManager ReloadAssembly
   Id: F4-CGN5-FGZ2-2A9H-3JZC-XXXX
   Product: Unity Personal
   Type: ULF
-  Expiration: 2026-03-23T07:49:28Z
+  Expiration: 2026-03-23T08:35:11Z
 [Licensing::Module] License group:
   Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
   Product: Unity Personal Version
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.638 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.554 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -199,89 +199,176 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.574 seconds
-Domain Reload Profiling: 1208ms
-	BeginReloadAssembly (181ms)
+- Finished resetting the current domain, in  0.459 seconds
+Domain Reload Profiling: 1010ms
+	BeginReloadAssembly (149ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
+		CreateAndSetChildDomain (27ms)
 	RebuildCommonClasses (30ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (381ms)
-		LoadAssemblies (296ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (331ms)
+		LoadAssemblies (259ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (177ms)
-			TypeCache.Refresh (127ms)
-				TypeCache.ScanAssembly (114ms)
-			BuildScriptInfoCaches (43ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (98ms)
+			BuildScriptInfoCaches (36ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (575ms)
+	FinalizeReload (459ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (472ms)
+		SetupLoadedEditorAssemblies (375ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (119ms)
-			ProcessInitializeOnLoadAttributes (279ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (218ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4601 unused Assets / (1.5 MB). Loaded Objects now: 5185.
-Memory consumption went from 97.7 MB to 96.2 MB.
-Total: 5.870500 ms (FindLiveObjects: 0.356300 ms CreateObjectMapping: 0.300900 ms MarkObjects: 4.188100 ms  DeleteObjects: 1.023900 ms)
+Unloading 4601 unused Assets / (1.4 MB). Loaded Objects now: 5187.
+Memory consumption went from 100.3 MB to 98.9 MB.
+Total: 5.334500 ms (FindLiveObjects: 0.356100 ms CreateObjectMapping: 0.259600 ms MarkObjects: 3.722500 ms  DeleteObjects: 0.995000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5235.285240 seconds.
-  path: Assets/Scenes/廚房/椅子L.prefab
-  artifactKey: Guid(8e6ed36188af6624d8e451ad83feac0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/廚房/椅子L.prefab using Guid(8e6ed36188af6624d8e451ad83feac0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e2e9c98bb50fab878be936ea8256bff') in 0.1122552 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 9233.288403 seconds.
+  path: Assets/dotpict_20260225_142720.png
+  artifactKey: Guid(b9a07cf702d53f944bb1ec47891e0d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dotpict_20260225_142720.png using Guid(b9a07cf702d53f944bb1ec47891e0d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6be9e10f07cd4c04f158db12141a0608') in 0.1213405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.866378 seconds.
+  path: Assets/dotpict_20260225_142648.png
+  artifactKey: Guid(df89690a60696424bab3d1221e6af8fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dotpict_20260225_142648.png using Guid(df89690a60696424bab3d1221e6af8fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5b03396ed6424f680aeb08e4fda9f2e7') in 0.1110551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 221.606118 seconds.
+  path: Assets/dotpict_20260223_143927.png
+  artifactKey: Guid(0f2183a7d26d72045b9758c0966872fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dotpict_20260223_143927.png using Guid(0f2183a7d26d72045b9758c0966872fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd63b394a5cbc87d83d1b4bb48b7c1d3') in 0.0223025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/dotpict_20260223_161243.png
+  artifactKey: Guid(c4ea45857401d7040ab55301f7987a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dotpict_20260223_161243.png using Guid(c4ea45857401d7040ab55301f7987a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87f3af44a252372d979e501ea7771c23') in 0.0163213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/dotpict_20260225_142648.png
+  artifactKey: Guid(df89690a60696424bab3d1221e6af8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dotpict_20260225_142648.png using Guid(df89690a60696424bab3d1221e6af8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cc3d021ae47527ac22bf65b378dc924') in 0.0200866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/dotpict_20260225_142657.png
+  artifactKey: Guid(f3b33d2c422832d47aad38f4228577d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dotpict_20260225_142657.png using Guid(f3b33d2c422832d47aad38f4228577d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a64ce976f60bb2252c2d97da10a579f') in 0.0193402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/dotpict_20260223_155544.png
+  artifactKey: Guid(33e3f5cb8c09ca04490a89bb2c4c57de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dotpict_20260223_155544.png using Guid(33e3f5cb8c09ca04490a89bb2c4c57de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78287bd01481136599979fa0b208c841') in 0.0170469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/dotpict_20260223_155333.png
+  artifactKey: Guid(aec1a995bd2622a4e88a8bf2ec9453c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dotpict_20260223_155333.png using Guid(aec1a995bd2622a4e88a8bf2ec9453c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '236c2fbe6a2573600ad64fca6c38ee8d') in 0.0166799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/dotpict_20260225_142729.png
+  artifactKey: Guid(d5d11ad0ab8225f4ba2df9840970c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dotpict_20260225_142729.png using Guid(d5d11ad0ab8225f4ba2df9840970c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8399ade2f457305ec048c6c91e5fc5ef') in 0.0205255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.824537 seconds.
+  path: Assets/dotpict_20260225_142808.png
+  artifactKey: Guid(75d362638ecfb6e49b8f073e2edce5ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dotpict_20260225_142808.png using Guid(75d362638ecfb6e49b8f073e2edce5ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3aeb71197e4f5773b150e37d2b0549dc') in 0.0174987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Scenes/廚房/冰箱.prefab
-  artifactKey: Guid(3085c8dcde877134a9d8fb4f393787ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/廚房/冰箱.prefab using Guid(3085c8dcde877134a9d8fb4f393787ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1fd12a2b1231809c1929d85495936bf3') in 0.0125239 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  path: Assets/dotpict_20260225_142746.png
+  artifactKey: Guid(685609491dcd2624182ebd4efa49cc2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dotpict_20260225_142746.png using Guid(685609491dcd2624182ebd4efa49cc2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a5a43b577361d7e0353dbe625f40fac5') in 0.018602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Scenes/廚房/櫃子 59 × 24_0.asset
-  artifactKey: Guid(414dff21eee665049a69d83d9fc3c920) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/廚房/櫃子 59 × 24_0.asset using Guid(414dff21eee665049a69d83d9fc3c920) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd45bb8bcb7838f33864f0d0faa6b6486') in 0.0211172 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000016 seconds.
+  path: Assets/dotpict_20260225_142657.png
+  artifactKey: Guid(f3b33d2c422832d47aad38f4228577d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dotpict_20260225_142657.png using Guid(f3b33d2c422832d47aad38f4228577d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bb8428d9aa286ebde58e800a664c6893') in 0.0165767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Settings/Scenes/URP2DSceneTemplate.unity
-  artifactKey: Guid(0fa1b8f92f76e6442b1ff609f9219820) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Settings/Scenes/URP2DSceneTemplate.unity using Guid(0fa1b8f92f76e6442b1ff609f9219820) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2b05e33756def4fada30402333fc3b96') in 0.0115439 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000030 seconds.
+  path: Assets/dotpict_20260223_155544.png
+  artifactKey: Guid(33e3f5cb8c09ca04490a89bb2c4c57de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dotpict_20260223_155544.png using Guid(33e3f5cb8c09ca04490a89bb2c4c57de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '83a7b74da14a205e710c6641e581be0b') in 0.0157644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Scenes/廚房/牆壁 32×64_0.asset
-  artifactKey: Guid(d822f48d36523404dbf1b0e8f5aa48d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/廚房/牆壁 32×64_0.asset using Guid(d822f48d36523404dbf1b0e8f5aa48d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b2f5201de9d3149ba56f9ecd25b95be3') in 0.0142587 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000015 seconds.
+  path: Assets/dotpict_20260225_142729.png
+  artifactKey: Guid(d5d11ad0ab8225f4ba2df9840970c65d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dotpict_20260225_142729.png using Guid(d5d11ad0ab8225f4ba2df9840970c65d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5d8e3e2dce821bfa039e2297820c5363') in 0.0162848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/dotpict_20260225_142653.png
+  artifactKey: Guid(11ff74743535e484a865c03d6daaf368) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dotpict_20260225_142653.png using Guid(11ff74743535e484a865c03d6daaf368) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4e5e0f2298932abea8706ad34a1d7a84') in 0.0160166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/dotpict_20260225_142648.png
+  artifactKey: Guid(df89690a60696424bab3d1221e6af8fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dotpict_20260225_142648.png using Guid(df89690a60696424bab3d1221e6af8fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9bc6d208753918b528912bc7d26afaf1') in 0.0178839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
